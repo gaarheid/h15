@@ -63,7 +63,12 @@ table {
 
 table td{
     width: 155px;
+}
 
+input, textarea {
+    display: block;
+    margin-bottom: 5px;
+    width: 400px;
 }
 
 /* footer */
