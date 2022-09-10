@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    background-image: url(/img/header.jpg);
+    background-size: 100%;
+    background-color: gray;
+    width: 800px;
+    height: 200px;
+}
+.bannertext {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 25px;
+}
+
+/* body */
+
+.menu {
+    background-color: lightgray;
+    padding: 8px;
+    width: 800px;
+}
+.menu a {
+    display: inline_block;
+    background-color: darkgray;
+    color: white;
+    border: 3px solid gray;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.menu a:hover {
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.503);
+}
+.menu a:active {
+    color: black;
+}
+
+.profielfoto {
+    height: 250px;
+    float: left;
+    margin: 0 5px 5px 0;
+    border-radius: 5px;
+
+}
+
+.text {
+    width: 800px;
+    padding: 5px;
+    color: black;
+    background-color: lightgray;
+    height: 450px;
+}
+
+table {
+    text-align: left;
+}
+
+table td{
+    width: 155px;
+
+}
+
+/* footer */
+footer {
+    color: darkorange;
+    width: 800px;
+    background-color: darkgray;
+    text-align: right;
+}
+
+.year {
+    color: orange;
+    padding: 3px;
+    font-style: italic;
+}
